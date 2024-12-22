@@ -1,21 +1,26 @@
-import java.util.*;
+import java.util.Scanner;
 
-class count {
-    public void count() {
+// Renamed the class to follow PascalCase
+class Counter {
+    public void printNumbers() {
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
     }
 }
 
-public class hello {
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         Scanner sc = new Scanner(System.in);
-        System.out.println("what`s your name?");
-        String name = sc.nextLine();
-        count c = new count();
-        c.count();
-        System.out.println("Hello, " + name);
+        try {
+            System.out.println("What's your name?");
+            String name = sc.nextLine();
+            Counter counter = new Counter();
+            counter.printNumbers();
+            System.out.println("Hello, " + name);
+        } finally {
+            sc.close(); // Closing the Scanner resource
+        }
     }
 }
