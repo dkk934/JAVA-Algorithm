@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-// Renamed the class to follow PascalCase
 class Counter {
     public void printNumbers() {
         for (int i = 0; i < 10; i++) {
