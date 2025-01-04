@@ -1,7 +1,7 @@
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
-        // Loop through each element in the array
+        //  Loop through each element in the array
         for (int i = 0; i < n - 1; i++) {
             // Traverse the array, and compare adjacent elements
             for (int j = 0; j < n - i - 1; j++) {
