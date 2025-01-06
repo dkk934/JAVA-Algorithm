@@ -16,9 +16,11 @@ Getting started is easy! Just follow these steps:
 1. **Clone this repository:**
 ```bash
 git clone https://github.com/dkk934/JAVA-Algorithm.git
+```
 2. **Navigate to the project directory:**
 ```bash
-  cd JAVA-Algorithm
+cd JAVA-Algorithm
+```
 3. **Compile the Java files:**
   - Make sure you have the Java Development Kit (JDK) installed. You can download it from the official Oracle website.
   - Compile the source files in each directory:
@@ -33,6 +35,7 @@ Ready to see the algorithms in action? Here's how:
 1. **Navigate to the bin directory:**
   ```bash
   cd bin
+  ```
 2. **Run the desired algorithm:**
   - For example, to run a specific algorithm from the Graphs directory:
   ```bash
@@ -61,4 +64,4 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
 5. Open a Pull Request.
 
 - ## License
-  
+This project is licensed under the MIT License. See the LICENSE file for more details.
