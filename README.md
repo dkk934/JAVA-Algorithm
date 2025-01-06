@@ -10,7 +10,7 @@ Welcome to the Java Algorithms Project! This repository contains a collection of
 - Contributing
 - License
 
-- ## Installation
+## Installation
 Getting started is easy! Just follow these steps:
 
 1. **Clone this repository:**
@@ -29,7 +29,7 @@ cd JAVA-Algorithm
     ```
   - This command compiles all Java files in the Graphs, Sorting, and Trees directories and places the compiled classes in the bin directory.
 
-- ## Usage
+## Usage
 Ready to see the algorithms in action? Here's how:
  
 1. **Navigate to the bin directory:**
@@ -43,7 +43,7 @@ Ready to see the algorithms in action? Here's how:
   ```
   - Similarly, you can run algorithms from the Graphs and Trees directories by specifying the appropriate class name.
  
-- ## Included Algorithms
+## Included Algorithms
 Here's a sneak peek at the categories of algorithms you'll find in this project:
 
  ### Graphs
@@ -54,6 +54,7 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
 
  ### Trees
   Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing    operations like insertion, deletion, and traversal.
+  
 - ## Contributing
   We love contributions! If you'd like to contribute, please follow these steps:
 
@@ -63,5 +64,5 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
 4. Push your changes (git push origin feature/new-feature).
 5. Open a Pull Request.
 
-- ## License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
