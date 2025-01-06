@@ -25,3 +25,14 @@ This project contains a collection of algorithms implemented in Java, designed t
      ```bash
      javac -d bin Graphs/*.java Sorting/*.java Trees/*.java
    - This command compiles all Java files in the Graphs, Sorting, and Trees directories and places the compiled classes in the bin directory.
+  
+- ## Usage
+  Ready to see the algorithms in action? Here's how:
+1. **Navigate to the bin directory:**
+   ```bash
+   cd bin
+2. **Run the desired algorithm:**
+   - For example, to run a specific algorithm from the Graphs directory:
+   ```bash
+   java Sorting.InsertionSort
+   - Similarly, you can run algorithms from the Graphs and Trees directories by specifying the appropriate class name.
