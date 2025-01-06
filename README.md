@@ -55,8 +55,8 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
  ### Trees
   Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing    operations like insertion, deletion, and traversal.
   
-- ## Contributing
-  We love contributions! If you'd like to contribute, please follow these steps:
+## Contributing
+We love contributions! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature/new-feature).
