@@ -39,7 +39,7 @@ Ready to see the algorithms in action? Here's how:
 2. **Run the desired algorithm:**
   - For example, to run a specific algorithm:
     ```bash
-    java InsertionSort
+    java QuickSort
     ```
   - Similarly, you can run algorithms specifying the appropriate class name.
  
