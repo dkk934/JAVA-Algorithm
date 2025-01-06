@@ -37,11 +37,11 @@ Ready to see the algorithms in action? Here's how:
     cd bin
     ```
 2. **Run the desired algorithm:**
-  - For example, to run a specific algorithm from the Graphs directory:
+  - For example, to run a specific algorithm:
     ```bash
-    java Sorting.InsertionSort
+    java InsertionSort
     ```
-  - Similarly, you can run algorithms from the Graphs and Trees directories by specifying the appropriate class name.
+  - Similarly, you can run algorithms specifying the appropriate class name.
  
 ## Included Algorithms 📂
 Here's a sneak peek at the categories of algorithms you'll find in this project:
