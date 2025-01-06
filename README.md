@@ -39,4 +39,14 @@ Welcome to the Java Algorithms Project! This repository contains a collection of
    ```
    - Similarly, you can run algorithms from the Graphs and Trees directories by specifying the appropriate class name.
   
-     - ## Included algorithms
+- ## Included Algorithms
+  Here's a sneak peek at the categories of algorithms you'll find in this project:
+
+  ### Graphs
+This category includes algorithms for traversing and searching through graph structures. These algorithms are fundamental for understanding how to navigate and manipulate graph data structures, which are widely used in computer science for modeling relationships and connections.
+
+### Sorting
+Sorting algorithms are essential for arranging data in a specific order, such as ascending or descending. This category covers various sorting techniques, each with its own advantages and use cases, helping you understand the trade-offs between different sorting methods.
+
+### Trees
+Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing operations like insertion, deletion, and traversal.
