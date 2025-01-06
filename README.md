@@ -14,13 +14,13 @@ Welcome to the Java Algorithms Project! This repository contains a collection of
 Getting started is easy! Just follow these steps:
 
 1. **Clone this repository:**
-  ```bash
-  git clone https://github.com/dkk934/JAVA-Algorithm.git
-  ```
+    ```bash
+    git clone https://github.com/dkk934/JAVA-Algorithm.git
+    ```
 2. **Navigate to the project directory:**
-  ```bash
-  cd JAVA-Algorithm
-  ```
+    ```bash
+    cd JAVA-Algorithm
+    ```
 3. **Compile the Java files:**
   - Make sure you have the Java Development Kit (JDK) installed. You can download it from the official Oracle website.
   - Compile the source files in each directory:
