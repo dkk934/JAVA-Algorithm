@@ -11,7 +11,7 @@ This project contains a collection of algorithms implemented in Java, designed t
 - License
 
 - ## Installation
-Getting started is easy! Just follow these steps:
+  Getting started is easy! Just follow these steps:
   
 1. **Clone this repository:**
    ```bash
