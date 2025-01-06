@@ -29,7 +29,7 @@ Welcome to the Java Algorithms Project! This repository contains a collection of
 - ## Usage
   Ready to see the algorithms in action? Here's how:
   
-  1. **Navigate to the bin directory:**
+ - 1. **Navigate to the bin directory:**
      ```bash
      cd bin
   2. **Run the desired algorithm:**
