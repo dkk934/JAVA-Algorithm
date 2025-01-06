@@ -35,4 +35,5 @@ This project contains a collection of algorithms implemented in Java, designed t
    - For example, to run a specific algorithm from the Graphs directory:
    ```bash
    java Sorting.InsertionSort
+   
    - Similarly, you can run algorithms from the Graphs and Trees directories by specifying the appropriate class name.
