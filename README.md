@@ -67,8 +67,6 @@ We love contributions! If you'd like to contribute, please follow these steps:
 ## Directory structure:
 ```
 dkk934-java-algorithm/
-    ├── README.md
-    ├── LICENSE
     ├── Graphs/
     │   ├── CycleDetection.java
     │   ├── Directed Graph/
