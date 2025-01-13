@@ -56,6 +56,41 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
   Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing    operations like insertion, deletion, and traversal.
   
 ## Contributing 🤝
+
+Directory structure:
+└── dkk934-java-algorithm/
+    ├── README.md
+    ├── LICENSE
+    ├── Graphs/
+    │   ├── CycleDetection.java
+    │   ├── Directed Graph/
+    │   │   ├── AdjacencyList.java
+    │   │   └── AdjacencyMatrix.java
+    │   ├── Directed Weighted Graph/
+    │   │   ├── AdjacencyList.java
+    │   │   └── AdjacencyMatrix.java
+    │   ├── GraphsTraversing/
+    │   │   ├── BFS.java
+    │   │   └── DFS.java
+    │   └── Undirected Graph/
+    │       ├── AdjacencyList.java
+    │       └── AdjacencyMatrix.java
+    ├── Sorting/
+    │   ├── BubbleShot.java
+    │   ├── CountingSort.java
+    │   ├── InsertionSort.java
+    │   ├── MergeSort.java
+    │   ├── QuickSort.java
+    │   ├── Radix.java
+    │   └── SelectionSort.java
+    └── Trees/
+        ├── AVLtree.java
+        ├── BinarySearchTree.java
+        ├── BinaryTree.java
+        ├── DecisionTree.java
+        ├── TreeInArray.java
+        └── TreeLinkedLest.java
+
 We love contributions! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
