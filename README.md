@@ -65,7 +65,8 @@ We love contributions! If you'd like to contribute, please follow these steps:
 5. Open a Pull Request.
    
 ## Directory structure:
-└── dkk934-java-algorithm/
+```
+dkk934-java-algorithm/
     ├── README.md
     ├── LICENSE
     ├── Graphs/
@@ -97,6 +98,6 @@ We love contributions! If you'd like to contribute, please follow these steps:
         ├── DecisionTree.java
         ├── TreeInArray.java
         └── TreeLinkedLest.java
-
+```
 ## License 📜
 This project is licensed under the MIT License. See the LICENSE file for more details.
