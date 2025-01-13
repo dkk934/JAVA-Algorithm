@@ -63,6 +63,40 @@ We love contributions! If you'd like to contribute, please follow these steps:
 3. Make your changes and commit them (git commit -am 'Add new feature').
 4. Push your changes (git push origin feature/new-feature).
 5. Open a Pull Request.
+   
+## Directory structure:
+└── dkk934-java-algorithm/
+    ├── README.md
+    ├── LICENSE
+    ├── Graphs/
+    │   ├── CycleDetection.java
+    │   ├── Directed Graph/
+    │   │   ├── AdjacencyList.java
+    │   │   └── AdjacencyMatrix.java
+    │   ├── Directed Weighted Graph/
+    │   │   ├── AdjacencyList.java
+    │   │   └── AdjacencyMatrix.java
+    │   ├── GraphsTraversing/
+    │   │   ├── BFS.java
+    │   │   └── DFS.java
+    │   └── Undirected Graph/
+    │       ├── AdjacencyList.java
+    │       └── AdjacencyMatrix.java
+    ├── Sorting/
+    │   ├── BubbleShot.java
+    │   ├── CountingSort.java
+    │   ├── InsertionSort.java
+    │   ├── MergeSort.java
+    │   ├── QuickSort.java
+    │   ├── Radix.java
+    │   └── SelectionSort.java
+    └── Trees/
+        ├── AVLtree.java
+        ├── BinarySearchTree.java
+        ├── BinaryTree.java
+        ├── DecisionTree.java
+        ├── TreeInArray.java
+        └── TreeLinkedLest.java
 
 ## License 📜
 This project is licensed under the MIT License. See the LICENSE file for more details.
