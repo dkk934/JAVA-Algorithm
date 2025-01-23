@@ -54,7 +54,16 @@ Here's a sneak peek at the categories of algorithms you'll find in this project:
 
  ### Trees
   Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing    operations like insertion, deletion, and traversal.
-  
+ 
+ ### Shortest path
+  Shortest path algorithms are used in graph theory to find the path between two nodes (vertices) in a graph that minimizes the total weight (cost, distance, or time).  
+ 
+ ### MST
+  Minimum spanning tree algorithms are used to find a subset of edges in a weighted graph that connects all vertices with the minimum total edge weight, without forming cycles.
+
+ ### Maximum flow
+  Maximum flow algorithms determine the greatest amount of flow that can pass from a source node to a sink node in a flow network, while respecting capacity constraints on the edges.
+
 ## Contributing 🤝
 We love contributions! If you'd like to contribute, please follow these steps:
 
