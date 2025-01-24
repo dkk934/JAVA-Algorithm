@@ -76,9 +76,8 @@ We love contributions! If you'd like to contribute, please follow these steps:
 ## Directory structure:
 ```
 └── dkk934-java-algorithm/
-    ├── README.md
-    ├── LICENSE
     ├── Graphs/
+    |   |
     │   ├── CycleDetection.java
     │   ├── Directed Graph/
     │   │   ├── AdjacencyList.java
@@ -92,17 +91,21 @@ We love contributions! If you'd like to contribute, please follow these steps:
     │   └── Undirected Graph/
     │       ├── AdjacencyList.java
     │       └── AdjacencyMatrix.java
+    |
     ├── Maximum Flow/
     │   ├── Edmonds-Karp.java
     │   └── Ford-Fulkerson.java
+    |
     ├── Minimum Spanning Tree/
     │   ├── Kruskal.java
     │   └── Prim.java
+    |
     ├── Shortest Path/
     │   ├── A_Star.java
     │   ├── BellmanFord.java
     │   ├── DijkstraAlgorithm.java
     │   └── Floyd-Warshall.java
+    |
     ├── Sorting/
     │   ├── BubbleShot.java
     │   ├── CountingSort.java
@@ -111,6 +114,7 @@ We love contributions! If you'd like to contribute, please follow these steps:
     │   ├── QuickSort.java
     │   ├── Radix.java
     │   └── SelectionSort.java
+    |
     └── Trees/
         ├── AVLtree.java
         ├── BinarySearchTree.java
