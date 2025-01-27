@@ -1,13 +1,5 @@
-// Node class representing a single node in the binary tree
-class Node {
-    int data;
-    Node left, right;
-
-    public Node(int item) {
-        data = item;
-        left = right = null;
-    }
-}
+import java.util.LinkedList;
+import java.util.Queue;
 
 // Binary Tree class with various operations
 public class BinaryTree {
@@ -88,7 +80,7 @@ public class BinaryTree {
     }
 
     // Main method to test the Binary Tree implementation
-    public static void main(String[] args) {
+    public static void execute() {
         BinaryTree tree = new BinaryTree();
 
         // Insert nodes into the binary tree
@@ -110,5 +102,16 @@ public class BinaryTree {
 
         // Calculate the height of the tree
         System.out.println("\nHeight of the tree: " + tree.height(tree.root));
+    }
+
+    // Node class representing a single node in the binary tree
+    static class Node {
+        int data;
+        Node left, right;
+
+        public Node(int item) {
+            data = item;
+            left = right = null;
+        }
     }
 }

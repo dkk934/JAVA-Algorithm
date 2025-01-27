@@ -5,24 +5,24 @@
  */
 
  public class BinomialHeapSort {
-    public static void binomialHeapSort(int[] arr) {
-        BinomialHeap heap = new BinomialHeap();
-        for (int num : arr) {
-            heap.insert(num);
-        }
-
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = heap.extractMin();
-        }
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {5, 2, 9, 1, 5, 6};
-        binomialHeapSort(arr);
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-    }
+//    public static void binomialHeapSort(int[] arr) {
+//        BinomialHeap heap = new BinomialHeap();
+//        for (int num : arr) {
+//            heap.insert(num);
+//        }
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = heap.extractMin();
+//        }
+//    }
+//
+//    public static void execute() {
+//        int[] arr = {5, 2, 9, 1, 5, 6};
+//        binomialHeapSort(arr);
+//        for (int num : arr) {
+//            System.out.print(num + " ");
+//        }
+//    }
 }
 
 /*

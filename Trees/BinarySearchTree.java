@@ -1,14 +1,3 @@
-// Node class representing a single node in the BST
-class BSTNode {
-    int data;
-    BSTNode left, right;
-
-    public BSTNode(int item) {
-        data = item;
-        left = right = null;
-    }
-}
-
 // Binary Search Tree class with various operations
 public class BinarySearchTree {
     BSTNode root;
@@ -112,7 +101,7 @@ public class BinarySearchTree {
     }
 
     // Main method to test the BST implementation
-    public static void main(String[] args) {
+    public static void execute() {
         BinarySearchTree bst = new BinarySearchTree();
 
         // Insert nodes into the BST
@@ -138,5 +127,16 @@ public class BinarySearchTree {
 
         // Display the tree after deletion
         bst.inOrder();
+    }
+
+     // Node class representing a single node in the BST
+     static class BSTNode {
+        int data;
+        BSTNode left, right;
+
+        public BSTNode(int item) {
+            data = item;
+            left = right = null;
+        }
     }
 }

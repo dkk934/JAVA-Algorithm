@@ -27,7 +27,7 @@
         }
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int[] arr = {5, 2, 9, 1, 5, 6};
         pigeonholeSort(arr);
         for (int num : arr) {

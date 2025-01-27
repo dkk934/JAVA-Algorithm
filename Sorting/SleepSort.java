@@ -19,7 +19,7 @@
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void execute() throws InterruptedException {
         int[] arr = {5, 2, 9, 1, 5, 6};
         sleepSort(arr);
     }

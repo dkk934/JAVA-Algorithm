@@ -200,7 +200,7 @@ public class DecisionTree {
     }
 
     // Main method for testing
-    public static void main(String[] args) {
+    public static void execute() {
         // XOR problem: simple binary classification
         double[][] X = {
             {0, 0},

@@ -45,7 +45,7 @@ public class KMP {
         return lps;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         String text = "ABABDABACDABABCABAB";
         String pattern = "ABABCABAB";
         KMPSearch(text, pattern);

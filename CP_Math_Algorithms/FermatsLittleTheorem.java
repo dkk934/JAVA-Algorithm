@@ -27,7 +27,7 @@ public class FermatsLittleTheorem {
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int n = 11;
         if (isPrime(n)) {
             System.out.println(n + " is a prime number.");

@@ -20,7 +20,7 @@ public class ModularExponentiation {
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int x = 3, y = 13, p = 1000000007;
         System.out.println("Result of (" + x + "^" + y + " % " + p + ") = " + modExp(x, y, p));
     }

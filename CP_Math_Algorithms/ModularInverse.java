@@ -19,7 +19,7 @@ public class ModularInverse {
         return (extendedGcd(a, m) + m) % m; // Modular inverse exists
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int a = 3, m = 11;
         int inverse = modInverse(a, m);
         if (inverse == -1) {
