@@ -16,7 +16,7 @@ public class InsertionSort {
     }
 
     // Main method to test the implementation
-    public static void main(String[] args) {
+    public static void execute() {
         int[] array = {12, 11, 13, 5, 6};
         System.out.println("Original array:");
         for (int num : array) {

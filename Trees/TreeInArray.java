@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class ArrayImplementation {
-    public static void main(String[] args) {
+public class TreeInArray {
+    public static void execute() {
         // Create an array
         int[] array = new int[5]; // Array with a fixed size of 5
         Scanner scanner = new Scanner(System.in);

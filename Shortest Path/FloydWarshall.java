@@ -46,7 +46,7 @@ public class FloydWarshall {
         }
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int[][] graph = {
                 {0, 3, INF, 5},
                 {2, 0, INF, 4},

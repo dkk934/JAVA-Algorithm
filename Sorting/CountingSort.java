@@ -33,7 +33,7 @@ public class CountingSort {
     }
 
     // Main method to test the implementation
-    public static void main(String[] args) {
+    public static void execute() {
         int[] array = {4, 2, 2, 8, 3, 3, 1};
         System.out.println("Original array: " + Arrays.toString(array));
 

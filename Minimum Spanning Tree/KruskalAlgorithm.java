@@ -85,7 +85,7 @@ public class KruskalAlgorithm {
         return mst; // Return the edges in the MST.
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Define the graph as a list of edges.
         List<Edge> edges = Arrays.asList(
             new Edge("A", "B", 1),

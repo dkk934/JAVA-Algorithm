@@ -53,7 +53,7 @@ public class RadixSort {
     }
 
     // Main method to test the implementation
-    public static void main(String[] args) {
+    public static void execute() {
         int[] array = {170, 45, 75, 90, 802, 24, 2, 66};
         System.out.println("Original array: " + Arrays.toString(array));
 

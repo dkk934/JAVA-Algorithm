@@ -36,7 +36,7 @@ public class QuickSort {
     }
 
     // Main method to test the implementation
-    public static void main(String[] args) {
+    public static void execute() {
         int[] array = {10, 7, 8, 9, 1, 5};
         System.out.println("Original array:");
         for (int num : array) {

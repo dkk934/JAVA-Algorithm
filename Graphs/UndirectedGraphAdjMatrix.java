@@ -1,5 +1,3 @@
-import java.util.*;
-
 class UndirectedGraphAdjMatrix {
     private int[][] adjMatrix; // 2D array to store the edges
     private int size;          // Number of vertices in the graph

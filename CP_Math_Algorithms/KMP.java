@@ -2,7 +2,7 @@
 
 public class KMP {
     // Function to perform KMP pattern matching
-    public static void KMPSearch(String text, String pattern) {
+    private static void KMPSearch(String text, String pattern) {
         int[] lps = computeLPSArray(pattern);
         int i = 0, j = 0;
         while (i < text.length()) {
@@ -24,7 +24,7 @@ public class KMP {
     }
 
     // Function to compute the longest prefix-suffix (LPS) array
-    public static int[] computeLPSArray(String pattern) {
+    private static int[] computeLPSArray(String pattern) {
         int[] lps = new int[pattern.length()];
         int len = 0;
         int i = 1;
@@ -45,7 +45,7 @@ public class KMP {
         return lps;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         String text = "ABABDABACDABABCABAB";
         String pattern = "ABABCABAB";
         KMPSearch(text, pattern);

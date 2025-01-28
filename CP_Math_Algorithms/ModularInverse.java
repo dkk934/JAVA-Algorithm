@@ -2,7 +2,7 @@
 
 public class ModularInverse {
     // Function to find GCD and coefficients using Extended Euclidean Algorithm
-    public static int extendedGcd(int a, int b) {
+    private static int extendedGcd(int a, int b) {
         if (b == 0) {
             return a; // GCD is a when b is 0
         }
@@ -10,7 +10,7 @@ public class ModularInverse {
     }
 
     // Function to find modular inverse of a modulo m
-    public static int modInverse(int a, int m) {
+    private static int modInverse(int a, int m) {
         int g = extendedGcd(a, m);
         if (g != 1) {
             // Modular inverse doesn't exist if GCD is not 1
@@ -19,7 +19,7 @@ public class ModularInverse {
         return (extendedGcd(a, m) + m) % m; // Modular inverse exists
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int a = 3, m = 11;
         int inverse = modInverse(a, m);
         if (inverse == -1) {

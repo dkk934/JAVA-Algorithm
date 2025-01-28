@@ -1,12 +1,12 @@
 import java.util.*;
 
 // Class to represent the graph
-class Graph {
+class TopologicalSort {
     private int V; // Number of vertices
     private LinkedList<Integer> adjList[]; // Adjacency list for storing graph
 
     // Constructor to initialize graph with V vertices
-    public Graph(int V) {
+    public TopologicalSort(int V) {
         this.V = V;
         adjList = new LinkedList[V]; // Array of adjacency lists
 
@@ -55,9 +55,9 @@ class Graph {
         }
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Create a graph with 6 vertices
-        Graph graph = new Graph(6);
+        TopologicalSort graph = new TopologicalSort(6);
 
         // Add edges
         graph.addEdge(5, 2);

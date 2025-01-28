@@ -52,7 +52,7 @@ public class UndirectedGraphCycleDetection {
     }
 
     // Main method to test the implementation
-    public static void main(String[] args) {
+    public static void execute() {
         UndirectedGraphCycleDetection graph = new UndirectedGraphCycleDetection(5);
 
         // Add edges

@@ -1,5 +1,3 @@
-import java.util.*;
-
 class DirectedGraphAdjMatrix {
     private int[][] adjMatrix; // 2D array to store the adjacency matrix
     private int size;          // Number of vertices in the graph

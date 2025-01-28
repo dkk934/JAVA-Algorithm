@@ -42,7 +42,7 @@ public class ExponentialSearch {
         return -1;  // Return -1 if target is not found
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int[] arr = {1, 3, 5, 7, 9, 11, 13, 15};
         int target = 7;
         int result = exponentialSearch(arr, target);

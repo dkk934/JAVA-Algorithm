@@ -1,12 +1,12 @@
 import java.util.*;
 
 // Graph class to represent the graph structure
-class Graph {
+class DFS {
     private int vertices; // Number of vertices
     private LinkedList<Integer>[] adjacencyList; // Adjacency list
 
     // Constructor
-    public Graph(int vertices) {
+    public DFS(int vertices) {
         this.vertices = vertices;
         adjacencyList = new LinkedList[vertices];
         for (int i = 0; i < vertices; i++) {
@@ -41,8 +41,8 @@ class Graph {
     }
 
     // Main method to test the DFS implementation
-    public static void main(String[] args) {
-        Graph graph = new Graph(6); // Create a graph with 6 vertices (0 to 5)
+    public static void execute() {
+        DFS graph = new DFS(6); // Create a graph with 6 vertices (0 to 5)
 
         // Add edges to the graph
         graph.addEdge(0, 1);

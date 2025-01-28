@@ -12,7 +12,7 @@ public class EuclideanAlgorithm {
         return a;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int a = 56, b = 98;
         System.out.println("GCD of " + a + " and " + b + " is: " + gcd(a, b));
     }

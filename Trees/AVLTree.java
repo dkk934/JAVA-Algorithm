@@ -1,14 +1,3 @@
-// Node class for the AVL Tree
-class Node {
-    int key, height;
-    Node left, right;
-
-    Node(int d) {
-        key = d;
-        height = 1;
-    }
-}
-
 // AVL Tree class
 public class AVLTree {
     Node root;
@@ -117,7 +106,7 @@ public class AVLTree {
     }
 
     // Main method to test the AVL Tree
-    public static void main(String[] args) {
+    public static void execute() {
         AVLTree tree = new AVLTree();
 
         tree.root = tree.insert(tree.root, 10);
@@ -129,5 +118,16 @@ public class AVLTree {
 
         System.out.println("In-order traversal of the AVL tree is:");
         tree.inOrder(tree.root);
+    }
+
+    // Node class for the AVL Tree
+    static class Node {
+        int key, height;
+        Node left, right;
+
+        Node(int d) {
+            key = d;
+            height = 1;
+        }
     }
 }

@@ -43,7 +43,7 @@ public class DijkstraAlgorithm {
         return distances;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Graph represented as an adjacency list.
         Map<String, List<Node>> graph = new HashMap<>();
         graph.put("A", Arrays.asList(new Node("B", 1), new Node("C", 4)));
@@ -58,14 +58,14 @@ public class DijkstraAlgorithm {
         // Print the result.
         System.out.println("Shortest distances from node " + startNode + ": " + shortestDistances);
     }
-}
 
-class Node {
-    String name;
-    int distance;
+    static class Node {
+        String name;
+        int distance;
 
-    public Node(String name, int distance) {
-        this.name = name;
-        this.distance = distance;
+        public Node(String name, int distance) {
+            this.name = name;
+            this.distance = distance;
+        }
     }
 }

@@ -30,7 +30,7 @@
         return -1;  // Return -1 if target is not found
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int[] arr = {2, 3, 5, 6, 7, 8};
         int target = 7;
         int result = binarySearch(arr, target);

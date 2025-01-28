@@ -65,7 +65,7 @@ class AStar {
         return path;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int[][] graph = {
                 {0, 1, 4, 0, 0},
                 {0, 0, 4, 2, 7},

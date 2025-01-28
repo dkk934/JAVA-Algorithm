@@ -1,5 +1,3 @@
-import java.util.*;
-
 class DirectedWeightedGraphAdjMatrix {
     private int[][] adjMatrix; // 2D array to store weights of edges
     private int size;          // Number of vertices in the graph

@@ -2,7 +2,7 @@
 
 public class ModularExponentiation {
     // Function to perform (x^y) % p
-    public static int modExp(int x, int y, int p) {
+    private static int modExp(int x, int y, int p) {
         int res = 1;
         x = x % p; // In case x is larger than p
 
@@ -20,7 +20,7 @@ public class ModularExponentiation {
         return res;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         int x = 3, y = 13, p = 1000000007;
         System.out.println("Result of (" + x + "^" + y + " % " + p + ") = " + modExp(x, y, p));
     }

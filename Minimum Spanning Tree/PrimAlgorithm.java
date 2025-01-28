@@ -52,7 +52,7 @@ public class PrimAlgorithm {
         return mst; // Return the edges in the MST.
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Define the graph as an adjacency list.
         Map<String, List<Edge>> graph = new HashMap<>();
         graph.put("A", Arrays.asList(new Edge("A", "B", 1), new Edge("A", "C", 5)));

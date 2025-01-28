@@ -16,7 +16,7 @@ public class BubbleSort {
         }
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Input array to be sorted
         int[] arr = {64, 34, 25, 12, 22, 11, 90};
         

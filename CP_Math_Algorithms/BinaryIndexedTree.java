@@ -27,7 +27,7 @@ public class BinaryIndexedTree {
         return sum;
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         BinaryIndexedTree BIT = new BinaryIndexedTree(5);
 
         // Update the BIT with values at different indices

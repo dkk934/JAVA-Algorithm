@@ -49,7 +49,7 @@ public class BellmanFord {
         return new Pair<>(distances, false); // No negative cycle detected.
     }
 
-    public static void main(String[] args) {
+    public static void execute() {
         // Graph represented as an adjacency list.
         Map<String, List<Edge>> graph = new HashMap<>();
         graph.put("A", Arrays.asList(new Edge("B", 1), new Edge("C", 4)));
