@@ -2,7 +2,7 @@
 
 public class ModularExponentiation {
     // Function to perform (x^y) % p
-    public static int modExp(int x, int y, int p) {
+    private static int modExp(int x, int y, int p) {
         int res = 1;
         x = x % p; // In case x is larger than p
 

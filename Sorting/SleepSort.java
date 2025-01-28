@@ -6,7 +6,7 @@
  */
 
  public class SleepSort {
-    public static void sleepSort(int[] arr) throws InterruptedException {
+    private static void sleepSort(int[] arr) throws InterruptedException {
         for (int num : arr) {
             new Thread(() -> {
                 try {

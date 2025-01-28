@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SieveOfEratosthenes {
     // Function to find all prime numbers up to n
-    public static void sieve(int n) {
+    private static void sieve(int n) {
         boolean[] primes = new boolean[n + 1];
         Arrays.fill(primes, true); // Assume all numbers are prime initially
         primes[0] = primes[1] = false; // 0 and 1 are not prime
