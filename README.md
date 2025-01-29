@@ -1,17 +1,22 @@
 # Java-Algorithm 🚀
 
 ## Description 📚
-Welcome to the Java Algorithms Project! This repository contains a collection of algorithms implemented in Java, designed to help beginner programmers understand and practice fundamental programming concepts. Whether you're just starting out or looking to brush up on your skills, you'll find this project helpful and engaging.
+Welcome to the **Java Algorithms Project**! This repository contains a collection of algorithms implemented in Java, designed to help beginner programmers understand and practice fundamental programming concepts. Whether you're just starting out or looking to refine your skills, this project will serve as an invaluable resource.
 
-## Table of Contents 📑
-- Installation
-- Usage
-- Included Algorithms
-- Contributing
-- License
+---
+
+## 📑 Table of Contents
+- [Installation 🛠️](#installation-)
+- [Usage 🎯](#usage-)
+- [Included Algorithms 📂](#included-algorithms-)
+- [Contributing 🤝](#contributing-)
+- [Directory Structure 📁](#directory-structure-)
+- [License 📜](#license-)
+
+---
 
 ## Installation 🛠️
-Getting started is easy! Just follow these steps:
+Follow these simple steps to get started:
 
 1. **Clone this repository:**
     ```bash
@@ -22,62 +27,78 @@ Getting started is easy! Just follow these steps:
     cd JAVA-Algorithm
     ```
 3. **Compile the Java files:**
-  - Make sure you have the Java Development Kit (JDK) installed. You can download it from the official Oracle website.
-  - Compile the source files in each directory:
+   - Ensure that you have the Java Development Kit (JDK) installed. You can download it from the official [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) page.
+   - Compile all source files:
     ```bash
     javac -d bin Graphs/*.java Sorting/*.java Trees/*.java CPMathAlgorithms/*.java MaximumFlow/*.java MinimumSpanningTree/*.java Searching/*.java ShortestPath/*.java UserInterface/*.java
     ```
-  - This command compiles all Java files in the project and places the compiled classes in the bin directory.
+   - This command compiles all Java files in the project and places the compiled classes in the `bin` directory.
+
+---
 
 ## Usage 🎯
-Ready to see the algorithms in action? Here's how:
- 
-1. **Navigate to the bin directory:**
+Want to see the algorithms in action? Here's how:
+
+1. **Navigate to the `bin` directory:**
     ```bash
     cd bin
     ```
-2. **Run the program:**
-  - To run the program User Interface:
+2. **Run a program:**
+   - To execute the **User Interface**, run:
     ```bash
     java Main
     ```
-  - Similarly, you can run algorithms specifying the appropriate class name.
- 
+   - You can also run individual algorithms by specifying the respective class name.
+
+---
+
 ## Included Algorithms 📂
-Here's a sneak peek at the categories of algorithms you'll find in this project:
+This project includes implementations of various algorithms categorized as follows:
 
- ### Graphs
-  This category includes algorithms for traversing and searching through graph structures. These algorithms are fundamental for understanding how to navigate and manipulate graph data       structures, which are widely used in computer science for modeling relationships and connections.
+### 🔹 Graphs
+Algorithms for traversing and searching graphs, crucial for modeling relationships in networks and connections.
 
- ### Sorting
-  Sorting algorithms are essential for arranging data in a specific order, such as ascending or descending. This category covers various sorting techniques, each with its own advantages     and use cases, helping you understand the trade-offs between different sorting methods.
+### 🔹 Sorting
+Techniques to arrange data in a specific order (ascending/descending), with different sorting methods optimized for various use cases.
 
- ### Trees
-  Tree algorithms focus on operations related to tree data structures, such as binary search trees. These algorithms are crucial for efficiently managing hierarchical data and performing    operations like insertion, deletion, and traversal.
- 
- ### Shortest path
-  Shortest path algorithms are used in graph theory to find the path between two nodes (vertices) in a graph that minimizes the total weight (cost, distance, or time).  
- 
- ### MST
-  Minimum spanning tree algorithms are used to find a subset of edges in a weighted graph that connects all vertices with the minimum total edge weight, without forming cycles.
+### 🔹 Trees
+Operations on tree data structures like binary search trees, including insertion, deletion, and traversal algorithms.
 
- ### Maximum flow
-  Maximum flow algorithms determine the greatest amount of flow that can pass from a source node to a sink node in a flow network, while respecting capacity constraints on the edges.
+### 🔹 Shortest Path
+Algorithms to find the optimal route between nodes in a graph with minimal cost, distance, or time.
+
+### 🔹 Minimum Spanning Tree (MST)
+Techniques for finding a subset of edges in a weighted graph that connects all vertices with the lowest total edge weight.
+
+### 🔹 Maximum Flow
+Methods to determine the greatest amount of flow possible from a source node to a sink node in a flow network.
+
+---
 
 ## Contributing 🤝
-We love contributions! If you'd like to contribute, please follow these steps:
+We welcome contributions! To contribute:
 
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/new-feature).
-3. Make your changes and commit them (git commit -am 'Add new feature').
-4. Push your changes (git push origin feature/new-feature).
-5. Open a Pull Request.
-   
-## Directory structure:
+1. **Fork** this repository.
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/new-feature
+    ```
+3. **Make changes and commit**:
+    ```bash
+    git commit -am 'Add new feature'
+    ```
+4. **Push changes**:
+    ```bash
+    git push origin feature/new-feature
+    ```
+5. **Submit a Pull Request** for review.
+
+---
+
+## Directory Structure 📁
 ```
 └── dkk934-java-algorithm/
     ├── Graphs/
-    |   |
     │   ├── CycleDetection.java
     │   ├── Directed Graph/
     │   │   ├── AdjacencyList.java
@@ -91,38 +112,42 @@ We love contributions! If you'd like to contribute, please follow these steps:
     │   └── Undirected Graph/
     │       ├── AdjacencyList.java
     │       └── AdjacencyMatrix.java
-    |
+    │
     ├── Maximum Flow/
     │   ├── Edmonds-Karp.java
     │   └── Ford-Fulkerson.java
-    |
+    │
     ├── Minimum Spanning Tree/
     │   ├── Kruskal.java
     │   └── Prim.java
-    |
+    │
     ├── Shortest Path/
     │   ├── A_Star.java
     │   ├── BellmanFord.java
     │   ├── DijkstraAlgorithm.java
     │   └── Floyd-Warshall.java
-    |
+    │
     ├── Sorting/
-    │   ├── BubbleShot.java
+    │   ├── BubbleSort.java
     │   ├── CountingSort.java
     │   ├── InsertionSort.java
     │   ├── MergeSort.java
     │   ├── QuickSort.java
     │   ├── Radix.java
     │   └── SelectionSort.java
-    |
+    │
     └── Trees/
         ├── AVLtree.java
         ├── BinarySearchTree.java
         ├── BinaryTree.java
         ├── DecisionTree.java
         ├── TreeInArray.java
-        └── TreeLinkedLest.java
-
+        └── TreeLinkedList.java
 ```
+---
+
 ## License 📜
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+🌟 Happy Coding! 🌟
+
