@@ -25,9 +25,9 @@ Getting started is easy! Just follow these steps:
   - Make sure you have the Java Development Kit (JDK) installed. You can download it from the official Oracle website.
   - Compile the source files in each directory:
     ```bash
-    javac -d bin Graphs/*.java Sorting/*.java Trees/*.java
+    javac -d bin Graphs/*.java Sorting/*.java Trees/*.java CPMathAlgorithms/*.java MaximumFlow/*.java MinimumSpanningTree/*.java Searching/*.java ShortestPath/*.java UserInterface/*.java
     ```
-  - This command compiles all Java files in the Graphs, Sorting, and Trees directories and places the compiled classes in the bin directory.
+  - This command compiles all Java files in the project and places the compiled classes in the bin directory.
 
 ## Usage 🎯
 Ready to see the algorithms in action? Here's how:
@@ -36,10 +36,10 @@ Ready to see the algorithms in action? Here's how:
     ```bash
     cd bin
     ```
-2. **Run the desired algorithm:**
-  - For example, to run a specific algorithm:
+2. **Run the program:**
+  - To run the program User Interface:
     ```bash
-    java QuickSort
+    java Main
     ```
   - Similarly, you can run algorithms specifying the appropriate class name.
  
