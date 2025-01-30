@@ -97,52 +97,83 @@ We welcome contributions! To contribute:
 
 ## Directory Structure 📁
 ```
+Directory structure:
 └── dkk934-java-algorithm/
+    ├── README.md
+    ├── JAVA-Algorithm.iml
+    ├── LICENSE
+    ├── CPMathAlgorithms/
+    │   ├── BinaryIndexedTree.java
+    │   ├── EuclideanAlgorithm.java
+    │   ├── FermatsLittleTheorem.java
+    │   ├── KMP.java
+    │   ├── ModularExponentiation.java
+    │   ├── ModularInverse.java
+    │   └── SieveOfEratosthenes.java
     ├── Graphs/
-    │   ├── CycleDetection.java
-    │   ├── Directed Graph/
-    │   │   ├── AdjacencyList.java
-    │   │   └── AdjacencyMatrix.java
-    │   ├── Directed Weighted Graph/
-    │   │   ├── AdjacencyList.java
-    │   │   └── AdjacencyMatrix.java
-    │   ├── GraphsTraversing/
-    │   │   ├── BFS.java
-    │   │   └── DFS.java
-    │   └── Undirected Graph/
-    │       ├── AdjacencyList.java
-    │       └── AdjacencyMatrix.java
-    │
-    ├── Maximum Flow/
-    │   ├── Edmonds-Karp.java
-    │   └── Ford-Fulkerson.java
-    │
-    ├── Minimum Spanning Tree/
-    │   ├── Kruskal.java
-    │   └── Prim.java
-    │
-    ├── Shortest Path/
-    │   ├── A_Star.java
+    │   ├── BFS.java
+    │   ├── DFS.java
+    │   ├── DirectedGraphAdjList.java
+    │   ├── DirectedGraphAdjMatrix.java
+    │   ├── DirectedWeightedGraphAdjList.java
+    │   ├── DirectedWeightedGraphAdjMatrix.java
+    │   ├── UndirectedGraphAdjList.java
+    │   ├── UndirectedGraphAdjMatrix.java
+    │   └── UndirectedGraphCycleDetection.java
+    ├── MaximumFlow/
+    │   ├── EdmonsKarpAlgorithm.java
+    │   └── FordFulkersonAlgorithm.java
+    ├── MinimumSpanningTree/
+    │   ├── KruskalAlgorithm.java
+    │   └── PrimAlgorithm.java
+    ├── Searching/
+    │   ├── BinarySearch.java
+    │   ├── ExponentialSearch.java
+    │   ├── JumpSearch.java
+    │   ├── LinearSearch.java
+    │   └── TernarySearch.java
+    ├── ShortestPath/
+    │   ├── AStar.java
     │   ├── BellmanFord.java
     │   ├── DijkstraAlgorithm.java
-    │   └── Floyd-Warshall.java
-    │
+    │   └── FloydWarshall.java
     ├── Sorting/
+    │   ├── BinomialHeapSort.java
     │   ├── BubbleSort.java
+    │   ├── CocktailShakerSort.java
     │   ├── CountingSort.java
+    │   ├── FlashSort.java
     │   ├── InsertionSort.java
     │   ├── MergeSort.java
+    │   ├── PigeonholeSort.java
     │   ├── QuickSort.java
-    │   ├── Radix.java
-    │   └── SelectionSort.java
-    │
-    └── Trees/
-        ├── AVLtree.java
-        ├── BinarySearchTree.java
-        ├── BinaryTree.java
-        ├── DecisionTree.java
-        ├── TreeInArray.java
-        └── TreeLinkedList.java
+    │   ├── RadixSort.java
+    │   ├── SelectionSort.java
+    │   ├── ShellSort.java
+    │   ├── SleepSort.java
+    │   ├── StrandSort.java
+    │   ├── TimSort.java
+    │   └── TopologicalSort.java
+    ├── Trees/
+    │   ├── AVLTree.java
+    │   ├── BinarySearchTree.java
+    │   ├── BinaryTree.java
+    │   ├── DecisionTree.java
+    │   ├── TreeInArray.java
+    │   └── TreeLinkedList.java
+    └── UserInterface/
+        ├── CPMathAlgorithmsView.java
+        ├── FrameBuilder.java
+        ├── GraphsAlgorithmsView.java
+        ├── HomeView.java
+        ├── Main.java
+        ├── MaximumFlowAlgorithmsView.java
+        ├── MinimumSpanningTreeAlgorithmsView.java
+        ├── SearchAlgorithmsView.java
+        ├── ShortestPathAlgorithmsView.java
+        ├── SortAlgorithmsView.java
+        └── TreesAlgorithmsView.java
+
 ```
 ---
 
