@@ -96,54 +96,102 @@ We welcome contributions! To contribute:
 ---
 
 ## Directory Structure 📁
-```
-└── dkk934-java-algorithm/
-    ├── Graphs/
-    │   ├── CycleDetection.java
-    │   ├── Directed Graph/
-    │   │   ├── AdjacencyList.java
-    │   │   └── AdjacencyMatrix.java
-    │   ├── Directed Weighted Graph/
-    │   │   ├── AdjacencyList.java
-    │   │   └── AdjacencyMatrix.java
-    │   ├── GraphsTraversing/
-    │   │   ├── BFS.java
-    │   │   └── DFS.java
-    │   └── Undirected Graph/
-    │       ├── AdjacencyList.java
-    │       └── AdjacencyMatrix.java
-    │
-    ├── Maximum Flow/
-    │   ├── Edmonds-Karp.java
-    │   └── Ford-Fulkerson.java
-    │
-    ├── Minimum Spanning Tree/
-    │   ├── Kruskal.java
-    │   └── Prim.java
-    │
-    ├── Shortest Path/
-    │   ├── A_Star.java
-    │   ├── BellmanFord.java
-    │   ├── DijkstraAlgorithm.java
-    │   └── Floyd-Warshall.java
-    │
-    ├── Sorting/
-    │   ├── BubbleSort.java
-    │   ├── CountingSort.java
-    │   ├── InsertionSort.java
-    │   ├── MergeSort.java
-    │   ├── QuickSort.java
-    │   ├── Radix.java
-    │   └── SelectionSort.java
-    │
-    └── Trees/
-        ├── AVLtree.java
-        ├── BinarySearchTree.java
-        ├── BinaryTree.java
-        ├── DecisionTree.java
-        ├── TreeInArray.java
-        └── TreeLinkedList.java
-```
+
+<details>
+  <summary><b>Java-Algorithm-List</b></summary>
+  
+  <details>
+    <summary>Graphs</summary>
+    
+  - CycleDetection.java  
+    
+    <details>
+      <summary>Directed Graph</summary>
+      
+      - AdjacencyList.java  
+      - AdjacencyMatrix.java  
+      
+    </details>
+    
+    <details>
+      <summary>Directed Weighted Graph</summary>
+      
+      - AdjacencyList.java  
+      - AdjacencyMatrix.java  
+      
+    </details>
+    
+    <details>
+      <summary>GraphsTraversing</summary>
+      
+      - BFS.java  
+      - DFS.java  
+      
+    </details>
+    
+    <details>
+      <summary>Undirected Graph</summary>
+      
+      - AdjacencyList.java  
+      - AdjacencyMatrix.java  
+      
+    </details>
+    
+  </details>
+  
+  <details>
+    <summary>Maximum Flow</summary>
+    
+    - Edmonds-Karp.java  
+    - Ford-Fulkerson.java  
+    
+  </details>
+  
+  <details>
+    <summary>Minimum Spanning Tree</summary>
+    
+    - Kruskal.java  
+    - Prim.java  
+    
+  </details>
+  
+  <details>
+    <summary>Shortest Path</summary>
+    
+    - A_Star.java  
+    - BellmanFord.java  
+    - DijkstraAlgorithm.java  
+    - Floyd-Warshall.java  
+    
+  </details>
+  
+  <details>
+    <summary>Sorting</summary>
+    
+    - BubbleSort.java  
+    - CountingSort.java  
+    - InsertionSort.java  
+    - MergeSort.java  
+    - QuickSort.java  
+    - Radix.java  
+    - SelectionSort.java  
+    
+  </details>
+  
+  <details>
+    <summary>Trees</summary>
+    
+    - AVLtree.java  
+    - BinarySearchTree.java  
+    - BinaryTree.java  
+    - DecisionTree.java  
+    - TreeInArray.java  
+    - TreeLinkedList.java  
+    
+  </details>
+  
+</details>
+
 ---
 
 ## License 📜
