@@ -8,21 +8,18 @@ Welcome to the **Java Algorithms Project**! This repository contains a collectio
 
 ## 📑 Table of Contents
 
-- [Java-Algorithm 🚀](#java-algorithm-)
-  - [Description 📚](#description-)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [Installation 🛠️](#installation-️)
-  - [Usage 🎯](#usage-)
-  - [Included Algorithms 📂](#included-algorithms-)
-    - [🔹 Graphs](#-graphs)
-    - [🔹 Sorting](#-sorting)
-    - [🔹 Trees](#-trees)
-    - [🔹 Shortest Path](#-shortest-path)
-    - [🔹 Minimum Spanning Tree (MST)](#-minimum-spanning-tree-mst)
-    - [🔹 Maximum Flow](#-maximum-flow)
-  - [Contributing 🤝](#contributing-)
-  - [Directory Structure 📁](#directory-structure-)
-  - [License 📜](#license-)
+- [Installation 🛠️](#installation-️)
+- [Usage 🎯](#usage-)
+- [Included Algorithms 📂](#included-algorithms-)
+  - [🔹 Graphs](#-graphs)
+  - [🔹 Sorting](#-sorting)
+  - [🔹 Trees](#-trees)
+  - [🔹 Shortest Path](#-shortest-path)
+  - [🔹 Minimum Spanning Tree (MST)](#-minimum-spanning-tree-mst)
+  - [🔹 Maximum Flow](#-maximum-flow)
+- [Contributing 🤝](#contributing-)
+- [Directory Structure 📁](#directory-structure-)
+- [License 📜](#license-)
 
 ---
 
@@ -135,87 +132,112 @@ We welcome contributions! To contribute:
 5. **Submit a Pull Request** for review.
 
 ---
-
 ## Directory Structure 📁
 
 <details>
-    <summary><b>Java-Algorithm-List</b></summary> 
-    <details>
-        <summary>CPMathAlgorithms</summary>
-    - BinaryIndexedTree.java</br>
-    - EuclideanAlgorithm.java</br>
-    - FermatsLittleTheorem.java</br>
-    - KMP.java</br>
-    - ModularExponentiation.java</br>
-    - ModularInverse.java</br>
-    - SieveOfEratosthenes.java</br>
-    </details>
-    <details>
-        <summary>Graphs</summary>
-    - BFS.java</br>
-    - DFS.java</br>
-    - DirectedGraphAdjList.java</br>
-    - DirectedGraphAdjMatrix.java</br>
-    - DirectedWeightedGraphAdjList.java</br>
-    - DirectedWeightedGraphAdjMatrix.java</br>
-    - UndirectedGraphAdjList.java</br>
-    - UndirectedGraphAdjMatrix.java</br>
-    - UndirectedGraphCycleDetection.java</br>
-    </details>
-    <details>
-        <summary>MaximumFlow</summary>
-    - EdmonsKarpAlgorithm.java</br>
-    - FordFulkersonAlgorithm.java</br>
-    </details>
-    <details>
-        <summary>MinimumSpanningTree</summary>
-    - KruskalAlgorithm.java</br>
-    - PrimAlgorithm.java</br>
-        </details>
-    <details>
-        <summary>Searching</summary>
-    - BinarySearch.java</br>
-    - ExponentialSearch.java</br>
-    - JumpSearch.java</br>
-    - LinearSearch.java</br>
-    - TernarySearch.java</br>
-    </details>
-    <details>
-        <summary>ShortestPath</summary>
-    - AStar.java</br>
-    - BellmanFord.java</br>
-    - DijkstraAlgorithm.java</br>
-    - FloydWarshall.java</br>
-    </details>
-    <details>
-        <summary>Sorting</summary>
-    - BinomialHeapSort.java</br>
-    - BubbleSort.java</br>
-    - CocktailShakerSort.java</br>
-    - CountingSort.java</br>
-    - FlashSort.java</br>
-    - InsertionSort.java</br>
-    - MergeSort.java</br>
-    - PigeonholeSort.java</br>
-    - QuickSort.java</br>
-    - RadixSort.java</br>
-    - SelectionSort.java</br>
-    - ShellSort.java</br>
-    - SleepSort.java</br>
-    - StrandSort.java</br>
-    - TimSort.java</br>
-    - TopologicalSort.java</br>
-    </details>
-    <details>   
-        <summary>Trees</summary>
-    - AVLTree.java</br>
-    - BinarySearchTree.java</br>
-    - BinaryTree.java</br>
-    - DecisionTree.java</br>
-    - TreeInArray.java</br>
-    - TreeLinkedList.java</br>
-      </details>
+  <summary><b>Java-Algorithm-List</b></summary> 
+  
+  <details>
+    <summary>CPMathAlgorithms</summary>
+    
+    - BinaryIndexedTree.java  
+    - EuclideanAlgorithm.java  
+    - FermatsLittleTheorem.java  
+    - KMP.java  
+    - ModularExponentiation.java  
+    - ModularInverse.java  
+    - SieveOfEratosthenes.java  
+    
+  </details>
+  
+  <details>
+    <summary>Graphs</summary>
+    
+    - BFS.java  
+    - DFS.java  
+    - DirectedGraphAdjList.java  
+    - DirectedGraphAdjMatrix.java  
+    - DirectedWeightedGraphAdjList.java  
+    - DirectedWeightedGraphAdjMatrix.java  
+    - UndirectedGraphAdjList.java  
+    - UndirectedGraphAdjMatrix.java  
+    - UndirectedGraphCycleDetection.java  
+    
+  </details>
+  
+  <details>
+    <summary>MaximumFlow</summary>
+    
+    - EdmondsKarpAlgorithm.java  
+    - FordFulkersonAlgorithm.java  
+    
+  </details>
+  
+  <details>
+    <summary>MinimumSpanningTree</summary>
+    
+    - KruskalAlgorithm.java  
+    - PrimAlgorithm.java  
+    
+  </details>
+  
+  <details>
+    <summary>Searching</summary>
+    
+    - BinarySearch.java  
+    - ExponentialSearch.java  
+    - JumpSearch.java  
+    - LinearSearch.java  
+    - TernarySearch.java  
+    
+  </details>
+  
+  <details>
+    <summary>ShortestPath</summary>
+    
+    - AStar.java  
+    - BellmanFord.java  
+    - DijkstraAlgorithm.java  
+    - FloydWarshall.java  
+    
+  </details>
+  
+  <details>
+    <summary>Sorting</summary>
+    
+    - BinomialHeapSort.java  
+    - BubbleSort.java  
+    - CocktailShakerSort.java  
+    - CountingSort.java  
+    - FlashSort.java  
+    - InsertionSort.java  
+    - MergeSort.java  
+    - PigeonholeSort.java  
+    - QuickSort.java  
+    - RadixSort.java  
+    - SelectionSort.java  
+    - ShellSort.java  
+    - SleepSort.java  
+    - StrandSort.java  
+    - TimSort.java  
+    - TopologicalSort.java  
+    
+  </details>
+  
+  <details>
+    <summary>Trees</summary>
+    
+    - AVLTree.java  
+    - BinarySearchTree.java  
+    - BinaryTree.java  
+    - DecisionTree.java  
+    - TreeInArray.java  
+    - TreeLinkedList.java  
+    
+  </details>
+
 </details>
+
 
 ---
 
