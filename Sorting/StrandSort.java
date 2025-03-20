@@ -7,6 +7,26 @@
  import java.util.*;
 
  public class StrandSort {
+
+     public static List<Integer> merge(List<Integer> sortedList, List<Integer> sublist){
+         List<Integer> mergedList = new ArrayList<>();
+         int i = 0, j = 0;
+         // Merge the two lists
+         while (i < sortedList.size() && j < sublist.size()) {
+             if (sortedList.get(i) < sublist.get(j)) {
+                 mergedList.add(sortedList.get(i));
+                 i++;
+             } else {
+                 mergedList.add(sublist.get(j));
+                 j++;
+             }
+         }
+         // Add the remaining elements
+         mergedList.addAll(sortedList.subList(i, sortedList.size()));
+         mergedList.addAll(sublist.subList(j, sublist.size()));
+         return mergedList;
+     }
+
      public static List<Integer> strandSort(List<Integer> arr) {
          List<Integer> sortedList = new ArrayList<>();
          List<Integer> array = new ArrayList<>(arr);
@@ -24,7 +44,8 @@
                      iter.remove();
                  }
              }
-             sortedList.addAll(sublist);
+             // Merge subsequence into sorted list
+             sortedList = merge(sortedList, sublist);
          }
          return sortedList;
      }
